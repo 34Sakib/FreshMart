@@ -1,0 +1,302 @@
+:root {
+  --primary-color: #4CAF50;
+  --secondary-color: #2c3e50;
+  --text-color: #333;
+  --light-bg: #f8f9fa;
+  --dark-bg: #1a1a1a;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+}
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.hdwallpapersfreedownload.com/uploads/large/fruits/gorgeous-mix-fresh-fruits-hd.jpg")
+      center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-section {
+  padding: 6rem 0;
+  background-color: var(--light-bg);
+}
+
+.about-image {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.products-section {
+  padding: 6rem 0;
+  background-color: white;
+}
+
+.products-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  position: relative;
+  text-align: center;
+}
+
+.products-section h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--primary-color);
+  margin: 15px auto;
+}
+
+.product-item .card {
+  border: none;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.product-item .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-item .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-item .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.product-item .card-text {
+  color: #666;
+  font-size: 1rem;
+}
+
+.product-item .price {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.contact-section {
+  padding: 6rem 0;
+}
+
+.contact-info p {
+  margin-bottom: 1rem;
+}
+
+.contact-info i {
+  color: var(--primary-color);
+  margin-right: 1rem;
+  width: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+}
+
+.footer {
+  background-color: var(--dark-bg);
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 0.8rem 2rem;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #3d8b40 !important;
+  border-color: #3d8b40 !important;
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2) !important;
+}
+/* Custom CSS for product images */
+.card-img-top {
+  border-bottom: 1px solid #ddd; /* Add a border below the image */
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.bg-gradient {
+  background: linear-gradient(135deg, #4CAF50, #81C784);
+  padding: 6rem 0;
+}
+
+.hero h1,
+.about-section h2,
+.contact-section h2 {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.about-section h2,
+.products-section h2 {
+  color: #4CAF50;
+}
+
+.hero p,
+.contact-section p {
+  color: #e0f2f1;
+}
+
+.footer {
+  background: linear-gradient(to right, #2c3e50, #4CAF50);
+}
+
+.newsletter-form input {
+  border-radius: 20px;
+  padding: 0.6rem 1rem;
+}
+
+.newsletter-form .btn {
+  border-radius: 20px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #2c3e50, #4CAF50);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-size: 2rem;
+}
+
+.card-title {
+  color: #2c3e50;
+}
+
+.card-text {
+  color: #666;
+}
+/* Updated contact section background and text */
+.contact-section {
+  background-color: #111; /* Deep black background */
+  color: #f1f1f1; /* Light text for contrast */
+  padding: 6rem 0;
+}
+
+.contact-section h2 {
+  color: #4CAF50;
+  margin-bottom: 2rem;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.contact-info i {
+  color: #4CAF50;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-form .btn {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn:hover {
+  background-color: #45a049;
+  color: #fff;
+}
