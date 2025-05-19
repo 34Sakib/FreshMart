@@ -6,22 +6,32 @@ FreshMart is a lightweight and beginner-friendly e-commerce website built using 
 
 ## 🚀 Features
 
-- Browse products and add to cart
-- View and remove items in the cart
-- Checkout page with total calculation
-- Payment page with multiple methods:
-  - ✅ bKash
-  - ✅ Nagad
-  - ✅ Rocket
-- Payment form validation (number must be 11 digits, PIN must be 5 digits)
-- Success page on successful mock payment
-- Session-based cart handling
+- **User Authentication**
+  - Secure login/signup system
+  - Session management
+  - User-specific carts
 
-## 🛠 Technologies Used
+- **E-Commerce Functionality**
+  - Product catalog with search
+  - Shopping cart system
+  - Checkout process
+  - Payment integration (simulated)
 
-- PHP (Core)
-- HTML5, CSS3
+- **Modern UI**
+  - Responsive design
+  - Animated components
+  - Interactive product cards
+  - Beautiful hero section
+
+## 🛠️ Technologies Used
+
+**Frontend:**
 - Bootstrap 5
-- JavaScript (minimal)
-- FontAwesome (optional)
+- Font Awesome
+- Custom CSS animations
+- Vanilla JavaScript
 
+**Backend:**
+- PHP
+- MySQL (for user authentication)
+- Session management
